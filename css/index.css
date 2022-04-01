@@ -253,7 +253,7 @@ footer .email{
 }
 
 footer .nav{
-    width: 175%;
+    /* width: 175%; */
     margin-left: 20%;
     display: flex;
     justify-content: space-between;
@@ -272,11 +272,52 @@ footer .copyright{
 /* mobile media query */
 @media (max-width: 428px) {
     /* header section */
-    
+
+    header h1{
+        width: 100%;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+
+    header div{
+        height: 60vh;
+        width: 428px;
+        position: sticky;
+    }
+
+    header nav{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    header nav .page-links{
+        flex-direction: column;
+        margin: 0;
+        width: 50%;
+        height: 30vh;
+    }
+
+    header nav .sm-links{
+        margin: 40px;
+        justify-content: space-between;
+        height: auto;
+        width: 25%;
+    }
 
     /* gallery section */
     .gallery {
         height: auto;
+    }
+
+    .gallery div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .gallery div img{
+        width: 100%;
     }
     
     /* about us section */
@@ -322,5 +363,16 @@ footer .copyright{
         height: auto;
         padding-top: 2.5vh;
         font-size: 2rem;
+    }
+    footer .container{
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
+    }
+
+    footer .nav{
+        flex-direction: column;
+        text-align: center;
+        margin: 0;
     }
 }
