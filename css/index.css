@@ -151,6 +151,7 @@ header a {
     background-size: cover;
     background-position: top;
     background-repeat: no-repeat;
+    color: rgb(225, 239, 230)
 }
 
 .about-container {
@@ -178,6 +179,7 @@ header a {
     background-position: center;
     background-repeat: no-repeat;
     background-color: rgb(0, 4, 17);
+    color: rgb(225, 239, 230);
 }
 
 .contact-container {
@@ -198,6 +200,7 @@ header a {
     padding: .5vh 0;
 }
 
+
 .info {
     width: 100%;
     display: flex;
@@ -215,6 +218,11 @@ header a {
 
 .contacts {
     width: 25%;
+}
+
+.contacts a{
+    text-decoration: none;
+    color: rgb(225, 239, 230);
 }
 
 /* footer section */
